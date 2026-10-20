@@ -1,0 +1,31 @@
+﻿# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local databases and sensitive keys
+*.db
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
